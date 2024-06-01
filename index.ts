@@ -12,7 +12,7 @@ const { repository } = await octokit.graphql.paginate(
             title
           }
           pageInfo {
-            hasNextPage
+        hasNextPage
             endCursor
           }
         }
