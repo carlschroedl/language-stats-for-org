@@ -10,7 +10,7 @@ const query = `
 {
   repositoryOwner(login: "my_org_name") {
     ... on Organization {
-      repositories(first: 100) {
+      repositories(first: 100, isFork: false) {
         totalCount
         pageInfo {
           endCursor
