@@ -13,5 +13,9 @@
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@octokit/core": "^6.1.2",
+    "@octokit/plugin-paginate-graphql": "^5.2.2"
   }
 }
