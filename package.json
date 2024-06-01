@@ -1,0 +1,17 @@
+{
+  "name": "language-stats-for-org",
+  "version": "1.0.0",
+  "description": "Get language stats for all repos in an org",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC0",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
